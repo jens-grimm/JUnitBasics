@@ -26,15 +26,9 @@ public class TestAsserts {
 	/**
 	 * @throws java.lang.Exception
 	 */
-<<<<<<< HEAD
-	@AfterClass
-	public static void tearDown() throws Exception {
-
-=======
 	@After
 	public void tearDown() throws Exception {
-		
->>>>>>> branch 'master' of https://github.com/jens-grimm/JUnitBasics.git
+
 		System.out.println("tearDown()");
 	}
 
