@@ -49,7 +49,7 @@ public class TestAsserts {
 	@Test
 	public void testEquals() {
 
-		assertEquals(3 + 4, 4 + 3);
+		assertEquals(6 + 4, 4 + 6);
 	}
 
 }
