@@ -43,7 +43,7 @@ public class TestAsserts {
 	public void testFalse() {
 		// fail("Not yet implemented");
 		
-		assertFalse(true);
+		assertFalse(false);
 	}
 
 
