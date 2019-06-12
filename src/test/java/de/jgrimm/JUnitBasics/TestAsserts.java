@@ -28,23 +28,28 @@ public class TestAsserts {
 	 */
 	@AfterClass
 	public static void tearDown() throws Exception {
-		
+
 		System.out.println("tearDown()");
 	}
 
 	@Test
 	public void testTrue() {
 		// fail("Not yet implemented");
-		
+
 		assertTrue(true);
 	}
-	
+
 	@Test
 	public void testFalse() {
 		// fail("Not yet implemented");
-		
+
 		assertFalse(false);
 	}
 
+	@Test
+	public void testEquals() {
+
+		assertEquals(3 + 4, 4 + 3);
+	}
 
 }
