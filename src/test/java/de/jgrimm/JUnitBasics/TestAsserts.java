@@ -26,8 +26,8 @@ public class TestAsserts {
 	/**
 	 * @throws java.lang.Exception
 	 */
-	@AfterClass
-	public static void tearDown() throws Exception {
+	@After
+	public void tearDown() throws Exception {
 		
 		System.out.println("tearDown()");
 	}
